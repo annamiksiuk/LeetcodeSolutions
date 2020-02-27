@@ -15,6 +15,7 @@
 		84032EC22404E63C00680B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84032EC02404E63C00680B84 /* LaunchScreen.storyboard */; };
 		84032EE72404E69700680B84 /* SolutionTwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84032EE62404E69700680B84 /* SolutionTwoSumTests.swift */; };
 		84032EEA2404EABD00680B84 /* LeetcodeSolutionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84032EE92404EABD00680B84 /* LeetcodeSolutionsUITests.swift */; };
+		84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84032ED92404E63C00680B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84032EE62404E69700680B84 /* SolutionTwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTwoSumTests.swift; sourceTree = "<group>"; };
 		84032EE92404EABD00680B84 /* LeetcodeSolutionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetcodeSolutionsUITests.swift; sourceTree = "<group>"; };
+		84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionCountVowelsPermutationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				84032ECE2404E63C00680B84 /* Info.plist */,
 				84032EE62404E69700680B84 /* SolutionTwoSumTests.swift */,
+				84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84032EE72404E69700680B84 /* SolutionTwoSumTests.swift in Sources */,
+				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
