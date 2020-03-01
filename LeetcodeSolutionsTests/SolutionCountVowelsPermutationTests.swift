@@ -22,6 +22,7 @@ import XCTest
 //
 
 extension Solution {
+//    1 version - 8ms for n == 1
     func permutationCombination(_ n: Int) -> [String] {
         guard n > 0, n <= 2 * 10000 else { return [] }
 
@@ -68,7 +69,35 @@ extension Solution {
         print("Explanation - \(newElements)")
         return newElements
     }
-
+    
+//    2 version - 16ms for n == 1
+//    func permutationCombination(_ n: Int) -> [String] {
+//        guard n > 0, n <= 2 * 10000 else { return [] }
+//
+//        let vowels = ["a", "e", "i", "o", "u"]
+//        let unwantedCombinations = ["aa", "ai", "ao", "au", "ee", "eo", "eu", "ii", "oo", "oe", "oa", "uu", "ue", "uo", "ui"]
+//
+//        var elements = vowels
+//
+//        for _ in 0..<(n - 1) {
+//            var newElements = [String]()
+//            for string in elements {
+//                for char in vowels {
+//                    let new = string + char
+//                    newElements.append(new)
+//                }
+//            }
+//
+//            for element in unwantedCombinations {
+//                newElements = newElements.filter( { !$0.contains(element) } )
+//            }
+//
+//            elements = newElements
+//        }
+//
+//        return elements
+//    }
+    
     func countVowelPermutation(_ n: Int) -> Int {
         let permutations = permutationCombination(n)
         return permutations.count % Int((pow(Double(10), 9) + 7))
