@@ -17,6 +17,7 @@
 		84032EEA2404EABD00680B84 /* LeetcodeSolutionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84032EE92404EABD00680B84 /* LeetcodeSolutionsUITests.swift */; };
 		84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */; };
 		84207CC0240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */; };
+		844045812416D9500058164D /* _3TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844045802416D9500058164D /* _3TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		84032EE92404EABD00680B84 /* LeetcodeSolutionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetcodeSolutionsUITests.swift; sourceTree = "<group>"; };
 		84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionCountVowelsPermutationTests.swift; sourceTree = "<group>"; };
 		84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionAddTwoNumbersTests.swift; sourceTree = "<group>"; };
+		844045802416D9500058164D /* _3TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				84032EE62404E69700680B84 /* SolutionTwoSumTests.swift */,
 				84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */,
 				84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */,
+				844045802416D9500058164D /* _3TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84032EE72404E69700680B84 /* SolutionTwoSumTests.swift in Sources */,
+				844045812416D9500058164D /* _3TaskSolutionTests.swift in Sources */,
 				84207CC0240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift in Sources */,
 				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 			);
