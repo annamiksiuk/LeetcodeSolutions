@@ -30,11 +30,9 @@
 import XCTest
 
 extension Solution {
-    func generalArray(largerArray: [Int], smallerArray: [Int]) -> [Int] {
-        guard largerArray.count >= smallerArray.count else { return [] }
-
-        var nums1 = largerArray
-        var nums2 = smallerArray
+    func generalArray(_ array1: [Int], _ array2: [Int]) -> [Int] {
+        var nums1 = array1
+        var nums2 = array2
         var array = [Int]()
         
         while !nums1.isEmpty || !nums2.isEmpty {
@@ -59,10 +57,7 @@ extension Solution {
     }
     
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
-        let n = nums1.count
-        let m = nums2.count
-        
-        let generalNums = n >= m ? generalArray(largerArray: nums1, smallerArray: nums2) : generalArray(largerArray: nums2, smallerArray: nums1)
+        let generalNums = generalArray(nums1, nums2)
         
         let generalCount = generalNums.count
         
