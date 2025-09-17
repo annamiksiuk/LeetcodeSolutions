@@ -20,6 +20,7 @@
 		84207CC0240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */; };
 		844045812416D9500058164D /* _3TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844045802416D9500058164D /* _3TaskSolutionTests.swift */; };
 		844A1A592422A871000F139C /* _4TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A1A582422A871000F139C /* _4TaskSolutionTests.swift */; };
+		F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionAddTwoNumbersTests.swift; sourceTree = "<group>"; };
 		844045802416D9500058164D /* _3TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3TaskSolutionTests.swift; sourceTree = "<group>"; };
 		844A1A582422A871000F139C /* _4TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				844045802416D9500058164D /* _3TaskSolutionTests.swift */,
 				844A1A582422A871000F139C /* _4TaskSolutionTests.swift */,
 				840171E92442155200B09155 /* _7TaskSolutionTests.swift */,
+				F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				84207CC0240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift in Sources */,
 				840171EA2442155200B09155 /* _7TaskSolutionTests.swift in Sources */,
 				844A1A592422A871000F139C /* _4TaskSolutionTests.swift in Sources */,
+				F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */,
 				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,8 +468,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.annamiksiuk.LeetcodeSolutions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -481,8 +488,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.annamiksiuk.LeetcodeSolutions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
