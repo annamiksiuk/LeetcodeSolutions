@@ -22,6 +22,7 @@
 		844A1A592422A871000F139C /* _4TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A1A582422A871000F139C /* _4TaskSolutionTests.swift */; };
 		F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */; };
 		F557D6802E7B134200275C46 /* _1TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D67F2E7B132800275C46 /* _1TaskSolutionTests.swift */; };
+		F557D6822E7B3C7000275C46 /* _26TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6812E7B3C5A00275C46 /* _26TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		844A1A582422A871000F139C /* _4TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D67F2E7B132800275C46 /* _1TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6812E7B3C5A00275C46 /* _26TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _26TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				840171E92442155200B09155 /* _7TaskSolutionTests.swift */,
 				F533488F2C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift */,
 				F557D67F2E7B132800275C46 /* _1TaskSolutionTests.swift */,
+				F557D6812E7B3C5A00275C46 /* _26TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */,
 				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 				F557D6802E7B134200275C46 /* _1TaskSolutionTests.swift in Sources */,
+				F557D6822E7B3C7000275C46 /* _26TaskSolutionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
