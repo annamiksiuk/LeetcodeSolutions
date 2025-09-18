@@ -27,6 +27,7 @@
 		F557D6862E7BEC4200275C46 /* _28TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6852E7BEC4200275C46 /* _28TaskSolutionTests.swift */; };
 		F557D6882E7BF73600275C46 /* _88TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6872E7BF73600275C46 /* _88TaskSolutionTests.swift */; };
 		F557D68A2E7C01AE00275C46 /* _283TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6892E7C01AE00275C46 /* _283TaskSolutionTests.swift */; };
+		F557D68C2E7C0B0000275C46 /* _125TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D68B2E7C0B0000275C46 /* _125TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F557D6852E7BEC4200275C46 /* _28TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _28TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6872E7BF73600275C46 /* _88TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6892E7C01AE00275C46 /* _283TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _283TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D68B2E7C0B0000275C46 /* _125TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _125TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				F557D6852E7BEC4200275C46 /* _28TaskSolutionTests.swift */,
 				F557D6872E7BF73600275C46 /* _88TaskSolutionTests.swift */,
 				F557D6892E7C01AE00275C46 /* _283TaskSolutionTests.swift */,
+				F557D68B2E7C0B0000275C46 /* _125TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				F557D6882E7BF73600275C46 /* _88TaskSolutionTests.swift in Sources */,
 				F557D6862E7BEC4200275C46 /* _28TaskSolutionTests.swift in Sources */,
 				844A1A592422A871000F139C /* _4TaskSolutionTests.swift in Sources */,
+				F557D68C2E7C0B0000275C46 /* _125TaskSolutionTests.swift in Sources */,
 				F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */,
 				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 				F557D6802E7B134200275C46 /* _1TaskSolutionTests.swift in Sources */,
