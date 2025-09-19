@@ -21,17 +21,6 @@ import XCTest
 //Output: 7 -> 0 -> 8
 //Explanation: 342 + 465 = 807.
 
-
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 extension ListNode {
     func explanation() -> String {
         if next == nil {

@@ -33,6 +33,8 @@
 		F557D6922E7C450800275C46 /* _14TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6912E7C450800275C46 /* _14TaskSolutionTests.swift */; };
 		F557D6942E7C916B00275C46 /* _217TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6932E7C916B00275C46 /* _217TaskSolutionTests.swift */; };
 		F557D6962E7C94FB00275C46 /* _136TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6952E7C94FB00275C46 /* _136TaskSolutionTests.swift */; };
+		F557D6982E7DB76A00275C46 /* _206TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6972E7DB76A00275C46 /* _206TaskSolutionTests.swift */; };
+		F557D69A2E7DB7C300275C46 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6992E7DB7C200275C46 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		F557D6912E7C450800275C46 /* _14TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _14TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6932E7C916B00275C46 /* _217TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _217TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6952E7C94FB00275C46 /* _136TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _136TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6972E7DB76A00275C46 /* _206TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _206TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6992E7DB7C200275C46 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				84032ECE2404E63C00680B84 /* Info.plist */,
+				F557D6992E7DB7C200275C46 /* ListNode.swift */,
 				84032EE62404E69700680B84 /* SolutionTwoSumTests.swift */,
 				84032EEC2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift */,
 				84207CBF240BC1EB00E14618 /* SolutionAddTwoNumbersTests.swift */,
@@ -169,6 +174,7 @@
 				F557D6912E7C450800275C46 /* _14TaskSolutionTests.swift */,
 				F557D6932E7C916B00275C46 /* _217TaskSolutionTests.swift */,
 				F557D6952E7C94FB00275C46 /* _136TaskSolutionTests.swift */,
+				F557D6972E7DB76A00275C46 /* _206TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -335,9 +341,11 @@
 				F557D6902E7C37AA00275C46 /* _387TaskSolutionTests.swift in Sources */,
 				F557D68A2E7C01AE00275C46 /* _283TaskSolutionTests.swift in Sources */,
 				F557D6842E7B436500275C46 /* _27TaskSolutionTests.swift in Sources */,
+				F557D6982E7DB76A00275C46 /* _206TaskSolutionTests.swift in Sources */,
 				840171EA2442155200B09155 /* _7TaskSolutionTests.swift in Sources */,
 				F557D6882E7BF73600275C46 /* _88TaskSolutionTests.swift in Sources */,
 				F557D6862E7BEC4200275C46 /* _28TaskSolutionTests.swift in Sources */,
+				F557D69A2E7DB7C300275C46 /* ListNode.swift in Sources */,
 				844A1A592422A871000F139C /* _4TaskSolutionTests.swift in Sources */,
 				F557D68C2E7C0B0000275C46 /* _125TaskSolutionTests.swift in Sources */,
 				F53348902C52D5CF00A3F1E7 /* _9TaskSolutionTests.swift in Sources */,
