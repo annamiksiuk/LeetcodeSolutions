@@ -37,12 +37,6 @@ extension ListNode {
     }
 }
 
-extension ListNode: Equatable {
-    public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
-        return lhs.val == rhs.val && lhs.next == rhs.next
-    }
-}
-
 extension Solution {
     func len(list: ListNode) -> Int {
         var len = 1

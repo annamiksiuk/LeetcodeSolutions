@@ -31,3 +31,9 @@ class ListNode {
         return [val] + values 
     }
 }
+
+extension ListNode: Equatable {
+    static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+        return lhs.val == rhs.val && lhs.next == rhs.next
+    }
+}
