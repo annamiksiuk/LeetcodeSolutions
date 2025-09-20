@@ -18,10 +18,6 @@ extension Solution {
     func maxDepth(_ root: TreeNode?) -> Int {
         guard let root else { return 0 }
 
-        if root.left == nil && root.right == nil {
-            return 1
-        }
-
         let leftCount = maxDepth(root.left)
         let rightCount = maxDepth(root.right)
 
