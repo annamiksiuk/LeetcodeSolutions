@@ -46,6 +46,7 @@
 		F557D6AC2E7F3DEC00275C46 /* _101TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6AB2E7F3DEC00275C46 /* _101TaskSolutionTests.swift */; };
 		F557D6AE2E7F471100275C46 /* _144TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6AD2E7F471100275C46 /* _144TaskSolutionTests.swift */; };
 		F557D6B02E8012FA00275C46 /* _94TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6AF2E8012FA00275C46 /* _94TaskSolutionTests.swift */; };
+		F557D6B22E801D1D00275C46 /* _704TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B12E801D1D00275C46 /* _704TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		F557D6AB2E7F3DEC00275C46 /* _101TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _101TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6AD2E7F471100275C46 /* _144TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _144TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6AF2E8012FA00275C46 /* _94TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _94TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6B12E801D1D00275C46 /* _704TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _704TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				F557D6AB2E7F3DEC00275C46 /* _101TaskSolutionTests.swift */,
 				F557D6AD2E7F471100275C46 /* _144TaskSolutionTests.swift */,
 				F557D6AF2E8012FA00275C46 /* _94TaskSolutionTests.swift */,
+				F557D6B12E801D1D00275C46 /* _704TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F557D6B22E801D1D00275C46 /* _704TaskSolutionTests.swift in Sources */,
 				F557D6942E7C916B00275C46 /* _217TaskSolutionTests.swift in Sources */,
 				84032EE72404E69700680B84 /* SolutionTwoSumTests.swift in Sources */,
 				F557D6A22E7F1CC500275C46 /* _83TaskSolutionTests.swift in Sources */,
