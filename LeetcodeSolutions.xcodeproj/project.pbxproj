@@ -50,6 +50,7 @@
 		F557D6B42E802DF700275C46 /* _35TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B32E802DF700275C46 /* _35TaskSolutionTests.swift */; };
 		F557D6B62E8034E500275C46 /* _278TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B52E8034E500275C46 /* _278TaskSolutionTests.swift */; };
 		F557D6B82E814A5F00275C46 /* _20TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */; };
+		F557D6BA2E814FDD00275C46 /* _70TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		F557D6B32E802DF700275C46 /* _35TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _35TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6B52E8034E500275C46 /* _278TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _278TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _70TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				F557D6B32E802DF700275C46 /* _35TaskSolutionTests.swift */,
 				F557D6B52E8034E500275C46 /* _278TaskSolutionTests.swift */,
 				F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */,
+				F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				84032EED2404F82000680B84 /* SolutionCountVowelsPermutationTests.swift in Sources */,
 				F557D6802E7B134200275C46 /* _1TaskSolutionTests.swift in Sources */,
 				F557D6822E7B3C7000275C46 /* _26TaskSolutionTests.swift in Sources */,
+				F557D6BA2E814FDD00275C46 /* _70TaskSolutionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
