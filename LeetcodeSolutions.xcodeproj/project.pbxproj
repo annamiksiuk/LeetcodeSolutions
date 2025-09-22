@@ -52,6 +52,7 @@
 		F557D6B82E814A5F00275C46 /* _20TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */; };
 		F557D6BA2E814FDD00275C46 /* _70TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */; };
 		F557D6BC2E81769D00275C46 /* _746TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6BB2E81769D00275C46 /* _746TaskSolutionTests.swift */; };
+		F557D6BE2E81D2E500275C46 /* _160TaskSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D6BD2E81D2E500275C46 /* _160TaskSolutionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _70TaskSolutionTests.swift; sourceTree = "<group>"; };
 		F557D6BB2E81769D00275C46 /* _746TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _746TaskSolutionTests.swift; sourceTree = "<group>"; };
+		F557D6BD2E81D2E500275C46 /* _160TaskSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _160TaskSolutionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				F557D6B72E814A5F00275C46 /* _20TaskSolutionTests.swift */,
 				F557D6B92E814FDD00275C46 /* _70TaskSolutionTests.swift */,
 				F557D6BB2E81769D00275C46 /* _746TaskSolutionTests.swift */,
+				F557D6BD2E81D2E500275C46 /* _160TaskSolutionTests.swift */,
 			);
 			path = LeetcodeSolutionsTests;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				F557D6B02E8012FA00275C46 /* _94TaskSolutionTests.swift in Sources */,
 				F557D6AA2E7F3B1F00275C46 /* _100TaskSolutionTests.swift in Sources */,
 				F557D6AE2E7F471100275C46 /* _144TaskSolutionTests.swift in Sources */,
+				F557D6BE2E81D2E500275C46 /* _160TaskSolutionTests.swift in Sources */,
 				F557D69C2E7DD0DD00275C46 /* _21TaskSolutionTests.swift in Sources */,
 				F557D6962E7C94FB00275C46 /* _136TaskSolutionTests.swift in Sources */,
 				F557D6B42E802DF700275C46 /* _35TaskSolutionTests.swift in Sources */,
